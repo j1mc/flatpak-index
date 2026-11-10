@@ -140,8 +140,8 @@ For apps that need **Node.js** (like Mariner), add a `nodejs` module:
 
 ### 3. Add a publish workflow
 
-Create `.github/workflows/publish-flatpak.yml`. The actions below are pinned to
-commit SHAs; review and update the pins when adopting newer releases.
+Create `.github/workflows/publish-flatpak.yml`. This workflow pins the actions
+below to commit SHAs; review and update the pins when you adopt newer releases.
 
 ```yaml
 name: Publish Flatpak
