@@ -292,8 +292,8 @@ as a bare application ID with an "Unknown" licence and no screenshots.
   reads labels from the registry and writes them back. It only touches listed
   digests, which keeps the set of published images unchanged.
 - **Provenance admission:** the [evaluation](docs/PROVENANCE-ADMISSION.md)
-  describes the proposed gate and its current limits; it is not yet enforced
-  on the production publisher.
+  describes the proposed gate and its current limits. The production publisher
+  does not enforce it yet.
 
 ## Architecture
 
